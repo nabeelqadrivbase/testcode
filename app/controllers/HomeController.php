@@ -19,5 +19,10 @@ class HomeController extends BaseController {
 	{
 		return View::make('hello');
 	}
+	
+	
+	function newdata(){
+		return allcar;
+	}
 
 }
